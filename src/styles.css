@@ -9,9 +9,12 @@ body {
 }
 
 section {
-  max-width: 1200px;
   margin: 0 auto;
   padding: 60px;
+}
+
+section.secondary {
+  background-color: #f8f8f8;
 }
 
 header {
@@ -80,6 +83,22 @@ main h3 {
   font-size: 40px;
   line-height: 1.5;
   color: #272044;
+  margin: 0;
+}
+
+main h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #272044;
+}
+
+main h5 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #272044;
 }
 
 main p {
@@ -134,7 +153,7 @@ footer li {
   grid-gap: 60px;
 }
 
-.grid-3-columns {
+.grid-3-columns-first-narrow {
   grid-template-columns: 1fr 2fr 2fr;
 }
 
@@ -142,8 +161,44 @@ footer li {
   grid-template-columns: 1fr 1fr;
 }
 
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
 .img-responsive {
   max-width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card {
+  background-color: #fff;
+  margin: 40px 0;
+}
+
+.card-body {
+  padding: 0 30px;
+}
+
+.card-footer {
+  padding: 30px;
+}
+
+.btn {
+  display: block;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 16px 32px;
+  background: #462cb3;
+  max-width: 100%;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 3px;
+  text-transform: uppercase;
 }
 
 @media (max-width: 900px) {
