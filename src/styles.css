@@ -195,6 +195,10 @@ footer li {
   aspect-ratio: 1/1;
 }
 
+.instagram-embeds {
+  margin: 40px 0;
+}
+
 .btn {
   display: block;
   color: white;
@@ -230,6 +234,11 @@ footer li {
 
   .grid {
     grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
+
+  .card {
+    margin: 10px;
   }
 
   .card img {
