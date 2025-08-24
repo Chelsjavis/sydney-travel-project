@@ -232,6 +232,15 @@ footer li {
     font-size: 12px;
   }
 
+  section {
+    padding: 10px 60px;
+  }
+
+  main h2,
+  h3 {
+    text-align: center;
+  }
+
   .grid {
     grid-template-columns: 1fr;
     grid-gap: 20px;
@@ -247,5 +256,9 @@ footer li {
 
   .embed {
     aspect-ratio: 16 / 9;
+  }
+
+  .img-mob-hide {
+    display: none;
   }
 }
