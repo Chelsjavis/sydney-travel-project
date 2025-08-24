@@ -237,7 +237,7 @@ footer li {
   }
 
   main h2,
-  h3 {
+  main h3 {
     text-align: center;
   }
 
@@ -260,5 +260,9 @@ footer li {
 
   .img-mob-hide {
     display: none;
+  }
+
+  .grid-3-columns-first-narrow {
+    grid-gap: 0;
   }
 }
